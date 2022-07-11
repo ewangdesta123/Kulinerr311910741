@@ -18,7 +18,7 @@ public class AboutFragment extends Fragment {
 
         View aboutView = inflater.inflate(R.layout.fragment_about,container, false);
         WebView webView = aboutView.findViewById(R.id.wv_about);
-        webView.loadUrl("file:///android_assets/index.html");
+        webView.loadUrl("file:///android_assets/home.html");
         // Inflate the layout for this fragment
         return aboutView;
     }
