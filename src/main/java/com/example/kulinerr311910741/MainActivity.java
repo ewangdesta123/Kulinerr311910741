@@ -36,12 +36,12 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case R.id.menu_web:
-                        FR = new HomeFragment();
+                        FR = new WebFragment();
                         getSupportActionBar();setTitle("Web");
                         break;
 
                     case R.id.menu_about:
-                        FR = new HomeFragment();
+                        FR = new AboutFragment();
                         getSupportActionBar();setTitle("About");
                         break;
                 }
