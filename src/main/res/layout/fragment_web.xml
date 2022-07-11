@@ -3,16 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WebFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WebFragment"
+    android:layout_marginBottom="65dp">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <WebView
+        android:id="@+id/wv_web"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Web"
-        android:textSize="60dp"
-        android:textStyle="bold"
-        android:gravity="center"
         />
 
 </FrameLayout>
